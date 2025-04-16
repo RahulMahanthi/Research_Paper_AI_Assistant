@@ -169,7 +169,3 @@ REACT_APP_API_URL=http://127.0.0.1:8000
 ## 📜 License
 
 [MIT License](LICENSE)
-
-## 📬 Contact
-
-Project Link: [https://github.com/yourusername/research-paper-assistant](https://github.com/yourusername/research-paper-assistant)
