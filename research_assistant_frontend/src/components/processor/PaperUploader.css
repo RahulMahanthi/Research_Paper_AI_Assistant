@@ -1,0 +1,70 @@
+/* PaperUploader.css */
+.paper-uploader {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .paper-uploader h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.8rem;
+  }
+  
+  .file-input-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .file-input-container input[type="file"] {
+    position: absolute;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #f3f4f6;
+    border: 2px dashed #cbd5e1;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+  
+  .file-input-label:hover {
+    background-color: #e2e8f0;
+    border-color: #94a3b8;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    width: 100%;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-primary:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }

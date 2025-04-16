@@ -1,0 +1,144 @@
+/* SimilarPapersUploadForm.css */
+.similar-papers-upload {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+  background-color: #f9fafc !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}
+
+.similar-papers-upload h2 {
+  color: #2d3748 !important;
+  font-size: 1.75rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: 600 !important;
+}
+
+.similar-papers-upload p {
+  color: #4a5568 !important;
+  margin-bottom: 2rem !important;
+  line-height: 1.5 !important;
+  font-size: 1rem !important;
+}
+
+.similar-papers-upload form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+}
+
+.similar-papers-upload .error-message {
+  background-color: #fed7d7 !important;
+  color: #c53030 !important;
+  padding: 1rem !important;
+  border-radius: 8px !important;
+  border-left: 4px solid #e53e3e !important;
+  margin-bottom: 1rem !important;
+}
+
+.similar-papers-upload .form-group {
+  margin-bottom: 0 !important;
+}
+
+.similar-papers-upload .form-group label {
+  display: block !important;
+  font-weight: 500 !important;
+  color: #2d3748 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.similar-papers-upload .form-group input[type="file"] {
+  width: 100% !important;
+  padding: 0.75rem !important;
+  background-color: #fff !important;
+  border: 1px solid #cbd5e0 !important;
+  border-radius: 8px !important;
+  font-size: 1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.similar-papers-upload .form-group input[type="file"]:hover:not(:disabled) {
+  background-color: #f7fafc !important;
+}
+
+.similar-papers-upload .form-group input[type="file"]:focus {
+  border-color: #4299e1 !important;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2) !important;
+  outline: none !important;
+}
+
+.similar-papers-upload .form-group input[type="file"]:disabled {
+  opacity: 0.65 !important;
+  cursor: not-allowed !important;
+  background-color: #edf2f7 !important;
+}
+
+.similar-papers-upload .form-group input[type="file"]::file-selector-button {
+  padding: 0.5rem 1rem !important;
+  margin-right: 1rem !important;
+  border-radius: 6px !important;
+  border: none !important;
+  background-color: #4299e1 !important;
+  color: white !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.similar-papers-upload .form-group input[type="file"]::file-selector-button:hover {
+  background-color: #3182ce !important;
+}
+
+.similar-papers-upload .form-group small {
+  display: block !important;
+  margin-top: 0.5rem !important;
+  color: #718096 !important;
+  font-size: 0.875rem !important;
+}
+
+.similar-papers-upload .btn {
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  border-radius: 6px !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.similar-papers-upload .btn-primary {
+  background-color: #4299e1 !important;
+  color: white !important;
+}
+
+.similar-papers-upload .btn-primary:hover:not(:disabled) {
+  background-color: #3182ce !important;
+}
+
+.similar-papers-upload .btn-primary:disabled {
+  background-color: #a0aec0 !important;
+  cursor: not-allowed !important;
+}
+
+/* Add loading animation */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.similar-papers-upload button[disabled] {
+  animation: pulse 1.5s infinite ease-in-out !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .similar-papers-upload {
+    padding: 1.5rem !important;
+  }
+  
+  .similar-papers-upload h2 {
+    font-size: 1.5rem !important;
+  }
+}

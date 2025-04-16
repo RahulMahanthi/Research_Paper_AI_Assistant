@@ -1,0 +1,36 @@
+/* SearchInfo.css */
+.search-info {
+    margin-top: 2rem;
+    background: #f8f9fb;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .search-info h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .sources-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .source-info-item {
+    border-left: 3px solid #4a6cf7;
+    padding-left: 1rem;
+  }
+  
+  .source-info-item h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .source-info-item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+  }

@@ -1,0 +1,125 @@
+/* ChatPage.css */
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px); /* Adjust based on your header height */
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 20px 25px;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #f9f9fb;
+}
+
+.chat-header h1 {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.chat-paper-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #4a6fa5;
+  border: 1px solid #4a6fa5;
+}
+
+.btn-outline:hover {
+  background-color: #f0f5ff;
+}
+
+.btn-primary {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3a5a85;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.auth-required,
+.paper-not-found,
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.auth-required h2,
+.paper-not-found h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.auth-required p,
+.paper-not-found p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.loader {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.error-message {
+  background-color: #ffeaea;
+  color: #d32f2f;
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin: 15px;
+  font-size: 0.95rem;
+}
+
+/* Additional responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .chat-page {
+    height: calc(100vh - 56px);
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .chat-header {
+    padding: 15px;
+  }
+  
+  .chat-header h1 {
+    font-size: 1.3rem;
+  }
+}
