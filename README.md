@@ -11,19 +11,16 @@ Research Paper Assistant is a sophisticated full-stack application designed to s
 The application follows a modern, scalable architecture:
 
 - **Frontend**: React application with React Router for navigation and state management
-  - Responsive design using Tailwind CSS
-  - Interactive visualizations with D3.js and Recharts
+  - Responsive design using  CSS
   - Optimized for both desktop and mobile experiences
 
 - **Backend**: FastAPI-based API service for high-performance asynchronous operations
   - RESTful endpoints for paper management
-  - WebSocket support for real-time chat functionality
   - Background task processing for computationally intensive operations
 
 - **Authentication**: JWT-based authentication system
   - Role-based access control
   - Secure password hashing and storage
-  - OAuth integration options for institutional access
 
 - **Database**: MongoDB for flexible document storage
   - Vector embeddings for semantic search functionality
@@ -43,8 +40,6 @@ The central hub for organizing your research materials:
 - **Metadata Extraction**: Automatic extraction of title, authors, abstract, and references
 - **Custom Organization**: Tag-based system with customizable collections and reading lists
 - **Citation Management**: Export citations in various formats (BibTeX, APA, MLA, etc.)
-- **Reading Progress Tracking**: Mark papers as read, unread, or in progress
-- **Annotation Tools**: Highlight, comment, and bookmark important sections within papers
 
 ### 💬 Paper Chat
 An interactive way to engage with research content:
@@ -53,14 +48,10 @@ An interactive way to engage with research content:
 - **Key Points Extraction**: Identify the most significant contributions or findings
 - **Terminology Explanation**: Get plain-language explanations of complex technical terms
 - **Research Gap Identification**: Highlight limitations and areas for future research
-- **Citation Context**: Understand how and why other papers are cited within the document
 
 ### 🔗 Similar Papers
 Discover relevant research through intelligent recommendations:
 - **Semantic Similarity**: Find papers with similar concepts regardless of terminology
-- **Citation Network Analysis**: Explore papers that cite or are cited by your current selection
-- **Research Trajectory Mapping**: Visualize how research topics have evolved over time
-- **Author Networks**: Discover collaborative networks among researchers in your field
 - **Interdisciplinary Connections**: Find related work across different research domains
 - **Recommendation Explanations**: Understand why specific papers are recommended
 
@@ -71,7 +62,6 @@ Gain deeper insights through automated content analysis:
 - **Visual Element Extraction**: Extract and analyze figures, tables, and charts
 - **Claim Identification**: Highlight specific claims and their supporting evidence
 - **Reproducibility Assessment**: Evaluate the completeness of methodological descriptions
-- **Impact Analysis**: Track citation patterns and research influence over time
 
 ### ⚖️ Paper Comparison
 Efficiently contrast multiple research papers:
@@ -91,33 +81,17 @@ A generalized AI assistant specialized in scientific literature:
 - **Critical Analysis Prompts**: Questions that encourage critical engagement with papers
 - **Custom Research Briefs**: Generate summaries focused on user-specified aspects
 
-### 🧪 Research Paper Testing
-Tools to evaluate and validate research paper content:
-- **Statistical Validation**: Check for consistency in reported statistical results
-- **Reference Verification**: Confirm the accuracy and completeness of citations
-- **Methodology Assessment**: Evaluate experimental design against best practices
-- **Replication Support**: Extract precise methodology steps for reproduction attempts
-- **Data Availability Check**: Verify if supporting data and materials are accessible
-- **Code Analysis**: Review any included code snippets or algorithms
 
 ### 🔎 Advanced Search
 Powerful search capabilities beyond basic keyword matching:
 - **Semantic Search**: Find papers based on conceptual similarity rather than exact keywords
 - **Multi-Faceted Filtering**: Filter by publication date, methodology, impact factor, etc.
-- **Natural Language Queries**: Ask research questions and find relevant literature
-- **Research Trend Analysis**: Identify emerging topics and declining research areas
-- **Author-Based Search**: Find works by specific researchers or research groups
-- **Cross-Database Integration**: Search across multiple academic databases simultaneously
 
 ### ⚙️ Paper Processing
 Transform research papers into more accessible formats:
 - **Audio Generation**: Convert papers into listenable audio summaries for on-the-go learning
 - **Research Podcasts**: Generate interview-style discussions about paper content
-- **Visual Summary Creation**: Produce infographics highlighting key findings
-- **Interactive Notebook Generation**: Convert static papers into interactive notebooks
 - **Simplified Explanations**: Create versions with reduced jargon for interdisciplinary access
-- **Translation Support**: Generate translations of papers for international accessibility
-
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
