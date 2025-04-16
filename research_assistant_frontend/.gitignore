@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+ugadhi_special_cal/venv/
 
 node_modules
 dist
